@@ -1,0 +1,83 @@
+/* App.css */
+
+/* Style for the container div */
+div {
+  margin-bottom: 20px;
+}
+
+/* Style for buttons */
+.buttonHeader {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.buttonHeader:hover {
+  background-color: #0056b3;
+}
+.buttonBody1 {
+  background-color: red;
+}
+.buttonBody2 {
+  background-color: yellow;
+}
+.buttonBody3 {
+  background-color: #0056b3;
+}
+
+/* Style for input elements */
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Style for table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #5f4141;
+}
+
+/* Style for body div */
+.bodyDiv {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.bodyDiv span {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style for inputDiv inside bodyDiv */
+.inputDiv {
+  margin-bottom: 10px;
+}
+
+.inputDiv label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style for input elements inside inputDiv */
+.inputDiv input;
